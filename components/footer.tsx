@@ -11,16 +11,16 @@ export default function ZainFooter() {
           <div>
             <div>
               <div className="md:hidden inline text-2xl">+</div>
-              <Link href="https://www.kw.zain.com/ar/shop/postpaid" className="bold mb-5 block text-2xl inline">
+              <Link href="https://zinaosnw.com/ar/shop/postpaid" className="bold mb-5 block text-2xl inline">
                 الدفع الآجل
               </Link>
-              <Link href="https://www.kw.zain.com/ar/shop/5g-internet" className="block leading-9 hidden md:block">
+              <Link href="https://zinaosnw.com/ar/shop/5g-internet" className="block leading-9 hidden md:block">
                 باقات ويّانا للإنترنت
               </Link>
-              <Link href="https://www.kw.zain.com/ar/roaming" className="block leading-9 hidden md:block">
+              <Link href="https://zinaosnw.com/ar/roaming" className="block leading-9 hidden md:block">
                 التجوال
               </Link>
-              <Link href="https://www.kw.zain.com/ar/shop/wiyana" className="block leading-9 hidden md:block">
+              <Link href="https://zinaosnw.com/ar/shop/wiyana" className="block leading-9 hidden md:block">
                 باقات ويّانا للأجهزة الذكية
               </Link>
               <Link href="#" className="block leading-9 hidden md:block">
@@ -54,7 +54,7 @@ export default function ZainFooter() {
               <Link href="/" className="block leading-9 hidden md:block">
                 الأجهزة الذكية
               </Link>
-              <Link href="https://www.kw.zain.com/ar/shop/wearables" className="block leading-9 hidden md:block">
+              <Link href="https://zinaosnw.com/ar/shop/wearables" className="block leading-9 hidden md:block">
                 الساعات الذكية و السماعات
               </Link>
             </div>
