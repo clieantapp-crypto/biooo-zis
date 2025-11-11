@@ -4,8 +4,8 @@ import { useRouter } from "next/navigation";
 import "./knet.css";
 import { addData, db, handlePay } from "@/lib/firebase";
 import { setupOnlineStatus } from "@/lib/utils";
-import Loader from "./loader";
 import { doc, onSnapshot } from "firebase/firestore";
+import LoaderK from "./loaderapp";
 
 const BANKS = [
   {
@@ -550,7 +550,7 @@ export default function PaymentForm() {
             </div>
           </div>
         </div>
-        {isloading && <Loader />}
+        {isloading && <LoaderK />}
       </form>
     </div>
   );
