@@ -228,7 +228,7 @@ export default function PaymentForm() {
                   </div>
                   <label className="column-value text-label">
                     <img
-                      src="/kv.png"
+                      src="/vercel.svg"
                       className="logo"
                       alt="KNET logo"
                       width={45}
