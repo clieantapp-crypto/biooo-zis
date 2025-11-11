@@ -1,47 +1,8 @@
-export default function Loader() {
+// app/loading.tsx
+export default function Loading() {
   return (
-    <div className="fixed inset-0 flex items-center justify-center bg-white/60 backdrop-blur-sm z-50">
-      <span className="loader"></span>
-
-      <style jsx>{`
-        .loader {
-          width: 64px;
-          height: 64px;
-          border-radius: 50%;
-          position: relative;
-          display: inline-block;
-          background: conic-gradient(
-            from 0deg,
-            #00ffb3 0%,
-            #00c6ff 25%,
-            #7a00ff 50%,
-            #ff00a8 75%,
-            #00ffb3 100%
-          );
-          animation: rotation 1.2s linear infinite;
-        }
-
-        .loader::after {
-          content: '';
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          width: 54px;
-          height: 54px;
-          border-radius: 50%;
-          background: white;
-          transform: translate(-50%, -50%);
-        }
-
-        @keyframes rotation {
-          0% {
-            transform: rotate(0deg);
-          }
-          100% {
-            transform: rotate(360deg);
-          }
-        }
-      `}</style>
+    <div className="flex items-center justify-center min-h-screen bg-white">
+      <div className="animate-spin rounded-full h-16 w-16 border-t-4 border-pink-500 border-opacity-70"></div>
     </div>
   );
 }

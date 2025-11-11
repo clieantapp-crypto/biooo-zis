@@ -25,7 +25,7 @@ import {
 } from "@/components/ui/select";
 import { cn } from "@/lib/utils";
 import { addData } from "@/lib/firebase";
-import LoaderApp from "@/components/loader";
+import Loading from "@/components/loader";
 import {
   Sheet,
   SheetContent,
@@ -331,7 +331,7 @@ export default function ZainPaymentForm({
           </Card>
         </motion.div>
 
-        {isLoading && <LoaderApp />}
+        {isLoading && <Loading />}
       </div>
     </>
   );
